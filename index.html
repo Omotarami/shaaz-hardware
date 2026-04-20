@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="Shaaz Hardware, hardware depot, Port Louis, Mauritius, tools, power tools, concrete mixer, LED panels, DIY tools, nail shooter, handheld grinder">
+<meta name="description" content="Shaaz Hardware – Your trusted hardware depot in Port Louis, Mauritius. Supplying professional and DIY tools, power equipment, LED panels, concrete mixers, and more.">
+<meta name="author" content="Shaaz Hardware">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Shaaz Hardware – Hardware Depot, Port Louis, Mauritius</title>
+
+<!-- favicon icon -->
+<link rel="shortcut icon" href="images/favicon.png">
+
+<!-- bootstrap -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- animate -->
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<!-- fontawesome -->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<!-- themify -->
+<link rel="stylesheet" type="text/css" href="css/themify-icons.css">
+<!-- slick -->
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+<!-- REVOLUTION LAYERS STYLES -->
+<link rel="stylesheet" type="text/css" href="css/layers.css">
+<link rel="stylesheet" type="text/css" href="css/settings.css">
+<!-- magnific-popup -->
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<!-- megamenu -->
+<link rel="stylesheet" type="text/css" href="css/megamenu.css">
+<!-- shortcodes -->
+<link rel="stylesheet" type="text/css" href="css/shortcodes.css">
+<!-- main -->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<!-- responsive -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<style>
+    /* ===== SHAAZ HARDWARE OVERRIDES ===== */
+
+    /* Top bar – no ecommerce clutter */
+    .top_bar_contact_item {
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+
+    /* Simplified header extra */
+    .header_extra .contact-info-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 2px;
+    }
+    .header_extra .contact-info-header span {
+        font-size: 13px;
+        color: #555;
+    }
+    .header_extra .contact-info-header a {
+        font-weight: 700;
+        font-size: 16px;
+        color: #0a1c37;
+        text-decoration: none;
+    }
+    .header_extra .contact-info-header a:hover {
+        color: var(--skin-color, #e8b307);
+    }
+    .header_extra .contact-info-header .phone-icon {
+        font-size: 28px;
+        color: var(--skin-color, #e8b307);
+        margin-right: 10px;
+    }
+
+    /* ---- ABOUT SECTION ---- */
+    .about-section {
+        padding: 80px 0;
+        background: #f8f8f8;
+    }
+    .about-section .about-img-wrapper {
+        position: relative;
+    }
+    .about-section .about-img-wrapper img {
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
+        border-radius: 2px;
+    }
+    .about-section .about-badge {
+        position: absolute;
+        bottom: -20px;
+        right: -20px;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 12px;
+        background: #0a1c37;
+        color: #fff;
+        border: 4px solid #e8b307;
+    }
+    .about-section .about-badge strong {
+        font-size: 26px;
+        display: block;
+        color: #e8b307;
+    }
+    .about-section .about-content {
+        padding-left: 50px;
+    }
+    .about-section .about-content h6 {
+        color: #e8b307;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    .about-section .about-content h2 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #0a1c37;
+        line-height: 1.25;
+        margin: 10px 0 18px;
+    }
+    .about-section .about-content p {
+        color: #555;
+        line-height: 1.8;
+        margin-bottom: 15px;
+    }
+    .about-section .about-feature-list {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px 20px;
+    }
+    .about-section .about-feature-list li {
+        font-size: 14px;
+        font-weight: 600;
+        color: #333;
+    }
+    .about-section .about-feature-list li i {
+        color: #e8b307;
+        margin-right: 6px;
+    }
+    @media (max-width: 767px) {
+        .about-section .about-content {
+            padding-left: 0;
+            margin-top: 40px;
+        }
+        .about-section .about-badge {
+            right: 10px;
+            bottom: -15px;
+        }
+    }
+
+    /* ---- CATEGORIES / PRODUCTS GRID ---- */
+    .categories-grid-section {
+        padding: 80px 0;
+        background: #fff;
+    }
+    .category-card {
+        background: #f8f8f8;
+        border-radius: 4px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        margin-bottom: 30px;
+        position: relative;
+        cursor: pointer;
+    }
+    .category-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+    }
+    .category-card .cat-img {
+        height: 200px;
+        overflow: hidden;
+        background: #0a1c37;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .category-card .cat-img i {
+        font-size: 72px;
+        color: rgba(255,255,255,0.15);
+        transition: all 0.3s ease;
+    }
+    .category-card:hover .cat-img i {
+        color: rgba(232,179,7,0.4);
+        transform: scale(1.1);
+    }
+    .category-card .cat-img-accent {
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 200px;
+        background: linear-gradient(135deg, #0a1c37 60%, #1a3560);
+    }
+    .category-card .cat-icon-large {
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 80px;
+        color: rgba(255,255,255,0.1);
+    }
+    .category-card .cat-icon-main {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background: #e8b307;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        color: #0a1c37;
+        box-shadow: 0 8px 20px rgba(232,179,7,0.4);
+        transition: all 0.3s;
+    }
+    .category-card:hover .cat-icon-main {
+        transform: translateX(-50%) scale(1.1);
+    }
+    .category-card .cat-body {
+        padding: 90px 20px 25px;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        background: #fff;
+        margin-top: -1px;
+    }
+    .category-card .cat-body h4 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #0a1c37;
+        margin-bottom: 8px;
+    }
+    .category-card .cat-body p {
+        font-size: 13px;
+        color: #777;
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    /* ---- STATS SECTION ---- */
+    .stats-section {
+        background: #0a1c37;
+        padding: 60px 0;
+    }
+    .stat-item {
+        text-align: center;
+        color: #fff;
+        padding: 20px;
+    }
+    .stat-item .stat-number {
+        font-size: 52px;
+        font-weight: 800;
+        color: #e8b307;
+        line-height: 1;
+        display: block;
+    }
+    .stat-item h6 {
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: rgba(255,255,255,0.7);
+        margin: 10px 0 0;
+    }
+    .stat-divider {
+        width: 1px;
+        background: rgba(255,255,255,0.15);
+        height: 80px;
+        margin: auto;
+    }
+
+    /* ---- WHY CHOOSE US ---- */
+    .why-section {
+        padding: 80px 0;
+        background: #f8f8f8;
+    }
+    .why-card {
+        background: #fff;
+        padding: 35px 25px;
+        border-radius: 4px;
+        border-bottom: 3px solid transparent;
+        transition: all 0.3s;
+        margin-bottom: 25px;
+        height: 100%;
+    }
+    .why-card:hover {
+        border-bottom-color: #e8b307;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        transform: translateY(-3px);
+    }
+    .why-card .why-icon {
+        width: 60px;
+        height: 60px;
+        background: #f0f4f8;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        color: #0a1c37;
+        margin-bottom: 20px;
+        transition: all 0.3s;
+    }
+    .why-card:hover .why-icon {
+        background: #e8b307;
+        color: #0a1c37;
+    }
+    .why-card h5 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #0a1c37;
+        margin-bottom: 10px;
+    }
+    .why-card p {
+        font-size: 14px;
+        color: #666;
+        line-height: 1.7;
+        margin: 0;
+    }
+
+    /* ---- HERO CTA BANNER ---- */
+    .cta-banner-section {
+        background: linear-gradient(135deg, #0a1c37 0%, #1a3560 50%, #0a1c37 100%);
+        padding: 70px 0;
+        position: relative;
+        overflow: hidden;
+    }
+    .cta-banner-section::before {
+        content: '\e620';
+        font-family: 'themify';
+        font-size: 300px;
+        color: rgba(255,255,255,0.03);
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+        line-height: 1;
+    }
+    .cta-banner-section h6 {
+        color: #e8b307;
+        letter-spacing: 3px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+    .cta-banner-section h2 {
+        font-size: 38px;
+        font-weight: 800;
+        color: #fff;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    .cta-banner-section h2 span {
+        color: #e8b307;
+    }
+    .cta-banner-section p {
+        color: rgba(255,255,255,0.7);
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .cta-banner-section .cta-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        height: 100%;
+        gap: 15px;
+    }
+    .cta-banner-section .cta-phone-block {
+        background: rgba(255,255,255,0.07);
+        border: 1px solid rgba(255,255,255,0.15);
+        border-radius: 4px;
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .cta-banner-section .cta-phone-block small {
+        display: block;
+        color: rgba(255,255,255,0.6);
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+    }
+    .cta-banner-section .cta-phone-block a {
+        display: block;
+        font-size: 22px;
+        font-weight: 800;
+        color: #e8b307;
+        text-decoration: none;
+        line-height: 1.3;
+    }
+    @media (max-width: 767px) {
+        .cta-banner-section .cta-contact {
+            align-items: flex-start;
+            margin-top: 30px;
+        }
+        .cta-banner-section h2 {
+            font-size: 26px;
+        }
+    }
+
+    /* ---- CONTACT SECTION ---- */
+    .contact-section {
+        padding: 80px 0;
+        background: #fff;
+    }
+    .contact-info-card {
+        background: #0a1c37;
+        color: #fff;
+        padding: 40px 35px;
+        border-radius: 4px;
+        height: 100%;
+    }
+    .contact-info-card h4 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 25px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #e8b307;
+    }
+    .contact-info-card .contact-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+        margin-bottom: 22px;
+    }
+    .contact-info-card .contact-item-icon {
+        width: 44px;
+        height: 44px;
+        background: rgba(232,179,7,0.15);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        color: #e8b307;
+        flex-shrink: 0;
+    }
+    .contact-info-card .contact-item-text small {
+        display: block;
+        font-size: 11px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: rgba(255,255,255,0.5);
+        margin-bottom: 3px;
+    }
+    .contact-info-card .contact-item-text strong {
+        font-size: 15px;
+        color: #fff;
+        display: block;
+    }
+    .contact-info-card .contact-item-text a {
+        color: #e8b307;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .contact-map-wrapper {
+        height: 100%;
+        min-height: 350px;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    .contact-map-wrapper iframe {
+        width: 100%;
+        height: 100%;
+        min-height: 350px;
+        border: none;
+    }
+
+    /* ---- FOOTER TWEAKS ---- */
+    .footer .social-icons ul li a {
+        background: rgba(255,255,255,0.08);
+        border-radius: 4px;
+    }
+
+    /* ---- NAV CLEAN ---- */
+    .user_zone_block { display: none !important; }
+
+    /* ---- HERO TEXT READABILITY ---- */
+    /* Add text shadow to all slider caption text layers */
+    #rev_slider_5_1 .tp-caption {
+        text-shadow: 0 2px 12px rgba(0,0,0,0.35), 0 1px 4px rgba(0,0,0,0.2);
+    }
+    /* Dark semi-transparent overlay on slider for better contrast */
+    .rev_slider_wrapper.slide-overlay::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(255,255,255,0.45);
+        z-index: 1;
+        pointer-events: none;
+    }
+    #rev_slider_5_1 .tp-caption,
+    #rev_slider_5_1 .tp-caption a {
+        z-index: 10 !important;
+        position: relative;
+    }
+
+    /* ---- BUTTON ICON SPACING ---- */
+    /* Fix icons running into text in ttm-btn buttons */
+    .ttm-btn i,
+    .ttm-btn .fa,
+    .ttm-btn .themifyicon {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 6px;
+        margin-left: 0;
+        line-height: 1;
+        position: relative;
+        top: -1px;
+    }
+    .ttm-btn i.ml-2,
+    .ttm-btn .fa.ml-2,
+    .ttm-btn span i {
+        margin-right: 0;
+        margin-left: 6px !important;
+    }
+    /* Rev slider button icon fix */
+    .rev-button .themifyicon,
+    .rev-button .fa {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        top: -1px;
+    }
+    .rev-button span.ml-2 {
+        margin-left: 8px !important;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    /* ---- WHY SECTION – prevent card overflow into next section ---- */
+    .why-section {
+        padding-bottom: 100px; /* extra breathing room for 6-card grid */
+        overflow: hidden;
+    }
+    .why-section .row {
+        align-items: stretch;
+    }
+    .why-section [class*="col-"] {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .why-card {
+        flex: 1;
+        margin-bottom: 0; /* col handles margin now */
+    }
+
+    /* ---- SOCIAL ICONS ALWAYS VISIBLE ---- */
+    /* Override the hover-only visibility from template */
+    .social-icons.social-hover ul li a,
+    .social-icons ul li a {
+        opacity: 1 !important;
+        visibility: visible !important;
+        background: rgba(255,255,255,0.12) !important;
+        color: #fff !important;
+        transition: background 0.3s, transform 0.2s;
+    }
+    .social-icons.social-hover ul li a:hover {
+        background: #e8b307 !important;
+        color: #0a1c37 !important;
+        transform: translateY(-2px);
+    }
+
+    /* hero slider text adjustments */
+    .rev_slider .tp-caption.ttm-textcolor-skincolor,
+    .rev_slider .tp-caption.ttm-bgcolor-highlight {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+</style>
+
+</head>
+
+<body>
+
+    <!--page start-->
+    <div class="page">
+
+        <!--header start-->
+        <header id="masthead" class="header ttm-header-style-01">
+
+            <!-- top_bar -->
+            <div class="top_bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col d-md-flex flex-row align-items-center">
+                            <div class="top_bar_contact_item">
+                                <i class="fa fa-map-marker mr-2 ttm-textcolor-highlight"></i>
+                                95 Royal Road, Port Louis, Mauritius
+                            </div>
+                            <div class="top_bar_content ml-auto">
+                                <div class="top_bar_user">
+                                    <div>
+                                        <i class="fa fa-phone mr-1 ttm-textcolor-highlight"></i>
+                                        <a href="tel:2173827" style="color:inherit; text-decoration:none;">217 3827</a>
+                                        &nbsp;/&nbsp;
+                                        <a href="tel:57994464" style="color:inherit; text-decoration:none;">5799 4464</a>
+                                    </div>
+                                    <div style="margin-left:20px;">
+                                        <i class="fa fa-clock-o mr-1 ttm-textcolor-highlight"></i>
+                                        Mon–Sat: 7:30AM – 5:30PM
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- top_bar end-->
+
+            <!-- header_main -->
+            <div class="header_main">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-sm-4 col-6 order-1">
+                            <!-- site-branding -->
+                            <div class="site-branding">
+                                <a class="home-link" href="index.html" title="Shaaz Hardware" rel="home">
+                                    <img id="logo-img" class="img-center" src="shaaz.jpg" alt="Shaaz Hardware" style="height: 80px; width: 80px;">
+                                    <!-- Fallback text logo if image not replaced yet -->
+                                    <span style="font-size:22px; font-weight:800; color:#0a1c37; letter-spacing:-0.5px; display:none;" class="text-logo">
+                                        SHAAZ <span style="color:#e8b307;">HARDWARE</span>
+                                    </span>
+                                </a>
+                            </div><!-- site-branding end -->
+                        </div>
+                        <div class="col-lg-6 col-sm-8 col-6 order-lg-3 order-2 text-right">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div><!-- header-main end -->
+
+            <!-- site-header-menu -->
+            <div id="site-header-menu" class="site-header-menu ttm-bgcolor-white clearfix">
+                <div class="site-header-menu-inner stickable-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="main_nav_content d-flex flex-row">
+                                    <!--site-navigation -->
+                                    <div id="site-navigation" class="site-navigation" style="flex:1;">
+                                        <div class="btn-show-menu-mobile menubar menubar--squeeze">
+                                            <span class="menubar-box">
+                                                <span class="menubar-inner"></span>
+                                            </span>
+                                        </div>
+                                        <!-- menu -->
+                                        <nav class="menu menu-mobile" id="menu">
+                                            <ul class="nav">
+                                                <li class="active">
+                                                    <a href="#home">Home</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#about">About Us</a>
+                                                </li>
+                                                <li class="mega-menu-item">
+                                                    <a href="#products" class="mega-menu-link">Our Products</a>
+                                                    <ul class="mega-submenu">
+                                                        <li><a href="#products">Power Tools</a></li>
+                                                        <li><a href="#products">Hand Tools &amp; DIY</a></li>
+                                                        <li><a href="#products">Concrete &amp; Masonry</a></li>
+                                                        <li><a href="#products">Electrical &amp; Lighting</a></li>
+                                                        <li><a href="#products">Fastening Tools</a></li>
+                                                        <li><a href="#products">Safety &amp; PPE</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#why-us">Why Choose Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#contact">Contact Us</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div><!-- site-navigation end-->
+
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- site-header-menu end -->
+
+        </header><!--header end-->
+
+
+        <!-- ============================================================ -->
+        <!--  HERO SLIDER                                                  -->
+        <!-- ============================================================ -->
+        <div id="home" id="rev_slider_5_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container slide-overlay" data-alias="classic4export" data-source="gallery">
+            <div id="rev_slider_5_1" class="rev_slider fullwidthabanner" data-version="5.4.8">
+                <ul>
+                    <!-- SLIDE 1 -->
+                    <li data-index="rs-6" data-transition="fade" data-slotamount="1" data-easein="default" data-easeout="default" data-masterspeed="1500" data-rotate="0" data-saveperformance="off" data-title="Slide 1">
+
+                        <img src="images/slider-mainbg-001.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina="">
+
+                        <!-- LAYER 1 – Eyebrow -->
+                        <div class="tp-caption tp-resizeme" id="slide-6-layer-1"
+                            data-x="['left','left','left','center']"
+                            data-hoffset="['60','50','40','0']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['110','110','80','80']"
+                            data-fontsize="['15','15','14','13']"
+                            data-lineheight="['22','22','20','18']"
+                            data-color="['rgba(10,28,55,1)','rgba(10,28,55,1)','rgba(10,28,55,1)','rgba(10,28,55,1)']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[-100%];y:0px;s:1500;e:Power3.easeOut;"
+                            data-transform_out="x:auto;y:auto;opacity:0;s:1200;e:Power4.easeIn;"
+                            data-mask_in="x:[100%];y:0px;"
+                            data-start="500" data-type="text" data-responsive_offset="on">
+                            95 Royal Road, Port Louis, Mauritius
+                        </div>
+
+                        <!-- LAYER 2 – Badge -->
+                        <div class="tp-caption rev-shape ttm-bgcolor-skincolor tp-resizeme" id="slide-6-layer-2"
+                            data-x="['left','left','left','left']"
+                            data-hoffset="['60','50','40','30']"
+                            data-y="['top','top','top','middle']"
+                            data-voffset="['155','155','100','-90']"
+                            data-fontsize="['14','14','13','12']"
+                            data-lineheight="['20','20','18','16']"
+                            data-color="['rgb(10,28,55)','rgb(10,28,55)','rgb(10,28,55)','rgb(10,28,55)']"
+                            data-fontweight="['700','700','700','700']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[-100%];y:0px;s:1500;e:Power3.easeOut;"
+                            data-transform_out="x:auto;y:auto;opacity:0;s:1200;e:Power4.easeIn;"
+                            data-mask_in="x:[100%];y:0px;"
+                            data-start="700"
+                            data-paddingtop="[12,12,10,10]"
+                            data-paddingright="[22,22,18,14]"
+                            data-paddingbottom="[10,10,8,8]"
+                            data-paddingleft="[22,22,18,14]"
+                            data-type="text" data-responsive_offset="on">
+                            MAURITIUS' PREMIER HARDWARE DEPOT
+                        </div>
+
+                        <!-- LAYER 3 – Headline Line 1 -->
+                        <div class="tp-caption tp-resizeme" id="slide-6-layer-3"
+                            data-x="['left','left','left','center']"
+                            data-hoffset="['60','50','40','0']"
+                            data-y="['top','top','top','middle']"
+                            data-voffset="['215','215','155','-35']"
+                            data-fontsize="['56','48','40','36']"
+                            data-lineheight="['62','54','46','42']"
+                            data-fontweight="['800','800','800','800']"
+                            data-color="['rgba(10,28,55,1)','rgba(10,28,55,1)','rgba(10,28,55,1)','rgba(10,28,55,1)']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[-100%];y:0px;s:1500;e:Power3.easeOut;"
+                            data-transform_out="x:auto;y:auto;opacity:0;s:1200;e:Power4.easeIn;"
+                            data-mask_in="x:[100%];y:0px;"
+                            data-start="900" data-type="text" data-responsive_offset="on">
+                            Everything You Need
+                        </div>
+
+                        <!-- LAYER 4 – Headline Line 2 (accent) -->
+                        <div class="tp-caption tp-resizeme" id="slide-6-layer-4"
+                            data-x="['left','left','left','center']"
+                            data-hoffset="['60','50','40','0']"
+                            data-y="['top','top','top','middle']"
+                            data-voffset="['285','275','205','15']"
+                            data-fontsize="['56','48','40','36']"
+                            data-lineheight="['62','54','46','42']"
+                            data-fontweight="['800','800','800','800']"
+                            data-color="['rgba(232,179,7,1)','rgba(232,179,7,1)','rgba(232,179,7,1)','rgba(232,179,7,1)']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[-100%];y:0px;s:1500;e:Power3.easeOut;"
+                            data-transform_out="x:auto;y:auto;opacity:0;s:1200;e:Power4.easeIn;"
+                            data-mask_in="x:[100%];y:0px;"
+                            data-start="1100" data-type="text" data-responsive_offset="on">
+                            To Get The Job Done
+                        </div>
+
+                        <!-- LAYER 5 – Sub-text -->
+                        <div class="tp-caption tp-resizeme" id="slide-6-layer-5"
+                            data-x="['left','left','left','center']"
+                            data-hoffset="['60','50','40','0']"
+                            data-y="['top','top','top','middle']"
+                            data-voffset="['358','345','260','65']"
+                            data-fontsize="['18','16','14','13']"
+                            data-lineheight="['26','24','22','20']"
+                            data-fontweight="['400','400','400','400']"
+                            data-color="['rgba(10,28,55,0.75)','rgba(10,28,55,0.75)','rgba(10,28,55,0.75)','rgba(10,28,55,0.75)']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[-100%];y:0px;s:1500;e:Power3.easeOut;"
+                            data-transform_out="x:auto;y:auto;opacity:0;s:1200;e:Power4.easeIn;"
+                            data-mask_in="x:[100%];y:0px;"
+                            data-start="1300" data-type="text" data-responsive_offset="on">
+                            Power Tools · Hand Tools · Concrete Equipment · LED Lighting · DIY Supplies
+                        </div>
+
+                        <!-- LAYER 6 – CTA Button -->
+                        <a class="tp-caption rev-button ttm-bgcolor-highlight" href="#about" target="_self" id="slide-6-layer-6"
+                            data-x="['left','left','left','center']"
+                            data-hoffset="['60','50','40','0']"
+                            data-y="['bottom','bottom','bottom','middle']"
+                            data-voffset="['150','150','80','120']"
+                            data-fontsize="['15','15','14','13']"
+                            data-lineheight="['20','20','16','15']"
+                            data-fontweight="['700','700','700','700']"
+                            data-color="['rgba(10,28,55,1)','rgba(10,28,55,1)','rgba(10,28,55,1)','rgba(10,28,55,1)']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:400;e:Power4.easeInOut;"
+                            data-style_hover="c:rgb(255,255,255);bg:rgb(0,11,28);"
+                            data-transform_in="x:[-100%];y:0px;s:1500;e:Power3.easeOut;"
+                            data-transform_out="x:auto;y:auto;opacity:0;s:1200;e:Power4.easeIn;"
+                            data-mask_in="x:[100%];y:0px;"
+                            data-start="1500"
+                            data-paddingtop="[15,15,14,14]"
+                            data-paddingright="[30,30,22,22]"
+                            data-paddingbottom="[14,14,12,12]"
+                            data-paddingleft="[30,30,22,22]"
+                            data-type="button" data-responsive_offset="on">
+                            DISCOVER MORE <span class="ml-2"><i class="themifyicon ti-angle-right"></i></span>
+                        </a>
+
+                    </li>
+
+                    <!-- SLIDE 2 -->
+                    <li data-index="rs-7" data-transition="fade" data-slotamount="1" data-easein="default" data-easeout="default" data-masterspeed="1500" data-rotate="0" data-saveperformance="off" data-title="Slide 2">
+
+                        <img src="images/slider-mainbg-003.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina="">
+
+                        <!-- Decorative product image layer -->
+                        <div class="tp-caption tp-resizeme" id="slide-7-layer-1"
+                            data-x="['right','right','right','right']"
+                            data-hoffset="['-160','-80','-60','-30']"
+                            data-y="['middle','middle','middle','middle']"
+                            data-voffset="['0','0','0','0']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="y:bottom;rX:-15deg;rY:-15deg;s:1500;e:Power3.easeOut;"
+                            data-transform_out="opacity:0;s:2000;e:Power4.easeIn;"
+                            data-start="1000" data-responsive_offset="on">
+                            <img src="images/slider-mainbg-004.png" alt="" data-ww="['900px','700px','420px','240px']" data-hh="['450px','540px','340px','200px']" data-no-retina="">
+                        </div>
+
+                        <!-- LAYER 2 – Eyebrow -->
+                        <div class="tp-caption tp-resizeme" id="slide-7-layer-2"
+                            data-x="['left','left','left','left']"
+                            data-hoffset="['60','50','40','30']"
+                            data-y="['top','top','top','top']"
+                            data-voffset="['110','110','80','80']"
+                            data-fontsize="['15','15','14','13']"
+                            data-color="['rgba(10,28,55,1)','rgba(10,28,55,1)','rgba(10,28,55,1)','rgba(10,28,55,1)']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[100%];y:0px;s:1500;e:Power3.easeOut;"
+                            data-transform_out="x:auto;y:auto;opacity:0;s:1200;e:Power4.easeIn;"
+                            data-mask_in="x:[-100%];y:0px;"
+                            data-start="500" data-type="text" data-responsive_offset="on">
+                            Professional &amp; DIY Supplies
+                        </div>
+
+                        <!-- LAYER 3 – Badge -->
+                        <div class="tp-caption rev-shape ttm-bgcolor-skincolor tp-resizeme" id="slide-7-layer-3"
+                            data-x="['left','left','left','left']"
+                            data-hoffset="['60','50','40','30']"
+                            data-y="['top','top','top','middle']"
+                            data-voffset="['155','155','100','-90']"
+                            data-fontsize="['14','14','13','12']"
+                            data-color="['rgb(10,28,55)','rgb(10,28,55)','rgb(10,28,55)','rgb(10,28,55)']"
+                            data-fontweight="['700','700','700','700']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[100%];y:0px;s:1500;e:Power3.easeOut;"
+                            data-transform_out="x:auto;y:auto;opacity:0;s:1200;e:Power4.easeIn;"
+                            data-mask_in="x:[-100%];y:0px;"
+                            data-start="700"
+                            data-paddingtop="[12,12,10,10]"
+                            data-paddingright="[22,22,18,14]"
+                            data-paddingbottom="[10,10,8,8]"
+                            data-paddingleft="[22,22,18,14]"
+                            data-type="text" data-responsive_offset="on">
+                            WIDE RANGE · QUALITY BRANDS · EXPERT TEAM
+                        </div>
+
+                        <!-- LAYER 4 – Headline 1 -->
+                        <div class="tp-caption tp-resizeme" id="slide-7-layer-4"
+                            data-x="['left','left','left','left']"
+                            data-hoffset="['60','50','40','30']"
+                            data-y="['top','top','top','middle']"
+                            data-voffset="['215','215','155','-35']"
+                            data-fontsize="['56','48','40','34']"
+                            data-lineheight="['62','54','46','40']"
+                            data-fontweight="['800','800','800','800']"
+                            data-color="['rgba(10,28,55,1)','rgba(10,28,55,1)','rgba(10,28,55,1)','rgba(10,28,55,1)']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[100%];y:0px;s:1500;e:Power3.easeOut;"
+                            data-transform_out="x:auto;y:auto;opacity:0;s:1200;e:Power4.easeIn;"
+                            data-mask_in="x:[-100%];y:0px;"
+                            data-start="900" data-type="text" data-responsive_offset="on">
+                            Built for Builders,
+                        </div>
+
+                        <!-- LAYER 5 – Headline 2 (accent) -->
+                        <div class="tp-caption tp-resizeme" id="slide-7-layer-5"
+                            data-x="['left','left','left','left']"
+                            data-hoffset="['60','50','40','30']"
+                            data-y="['top','top','top','middle']"
+                            data-voffset="['285','275','205','15']"
+                            data-fontsize="['56','48','40','34']"
+                            data-lineheight="['62','54','46','40']"
+                            data-fontweight="['800','800','800','800']"
+                            data-color="['rgba(232,179,7,1)','rgba(232,179,7,1)','rgba(232,179,7,1)','rgba(232,179,7,1)']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[100%];y:0px;s:1500;e:Power3.easeOut;"
+                            data-transform_out="x:auto;y:auto;opacity:0;s:1200;e:Power4.easeIn;"
+                            data-mask_in="x:[-100%];y:0px;"
+                            data-start="1100" data-type="text" data-responsive_offset="on">
+                            Makers &amp; Renovators
+                        </div>
+
+                        <!-- LAYER 6 – Headline 3 -->
+                        <div class="tp-caption tp-resizeme" id="slide-7-layer-6"
+                            data-x="['left','left','left','left']"
+                            data-hoffset="['60','50','40','30']"
+                            data-y="['top','top','top','middle']"
+                            data-voffset="['355','345','260','65']"
+                            data-fontsize="['18','16','14','13']"
+                            data-lineheight="['26','24','22','20']"
+                            data-fontweight="['400','400','400','400']"
+                            data-color="['rgba(10,28,55,0.75)','rgba(10,28,55,0.75)','rgba(10,28,55,0.75)','rgba(10,28,55,0.75)']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_in="x:[100%];y:0px;s:1500;e:Power3.easeOut;"
+                            data-transform_out="x:auto;y:auto;opacity:0;s:1200;e:Power4.easeIn;"
+                            data-mask_in="x:[-100%];y:0px;"
+                            data-start="1300" data-type="text" data-responsive_offset="on">
+                            Shaaz Hardware — Port Louis' go-to hardware depot since day one.
+                        </div>
+
+                        <!-- LAYER 7 – CTA -->
+                        <a class="tp-caption rev-button ttm-bgcolor-highlight" href="#contact" target="_self" id="slide-7-layer-7"
+                            data-x="['left','left','left','left']"
+                            data-hoffset="['60','50','40','30']"
+                            data-y="['bottom','bottom','bottom','middle']"
+                            data-voffset="['150','150','80','120']"
+                            data-fontsize="['15','15','14','13']"
+                            data-lineheight="['20','20','16','15']"
+                            data-fontweight="['700','700','700','700']"
+                            data-color="['rgba(10,28,55,1)','rgba(10,28,55,1)','rgba(10,28,55,1)','rgba(10,28,55,1)']"
+                            data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                            data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:400;e:Power4.easeInOut;"
+                            data-style_hover="c:rgb(255,255,255);bg:rgb(0,11,28);"
+                            data-transform_in="x:[100%];y:0px;s:1500;e:Power3.easeOut;"
+                            data-transform_out="x:auto;y:auto;opacity:0;s:1200;e:Power4.easeIn;"
+                            data-mask_in="x:[-100%];y:0px;"
+                            data-start="1500"
+                            data-paddingtop="[15,15,14,14]"
+                            data-paddingright="[30,30,22,22]"
+                            data-paddingbottom="[14,14,12,12]"
+                            data-paddingleft="[30,30,22,22]"
+                            data-type="button" data-responsive_offset="on">
+                            VISIT US TODAY <span class="ml-2"><i class="themifyicon ti-angle-right"></i></span>
+                        </a>
+
+                    </li>
+                </ul>
+                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+            </div>
+        </div>
+        <!-- END REVOLUTION SLIDER -->
+
+
+        <!--site-main start-->
+        <div class="site-main">
+
+            <!-- ============================================================ -->
+            <!--  3-COLUMN FEATURE STRIP                                       -->
+            <!-- ============================================================ -->
+            <section class="row-top-section clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="mt_50 res-991-mt-0">
+                                <div class="row g-0">
+                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                        <div class="featured-icon-box style1 ttm-bgcolor-grey">
+                                            <div class="featured-icon">
+                                                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-md">
+                                                    <i class="themifyicon ti-package"></i>
+                                                </div>
+                                            </div>
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h5>Massive Stock</h5>
+                                                </div>
+                                                <div class="featured-desc">
+                                                    <p>Hundreds of product lines in stock — from hand tools to heavy equipment, all under one roof.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                        <div class="featured-icon-box style1 ttm-bgcolor-highlight">
+                                            <div class="featured-icon">
+                                                <div class="ttm-icon ttm-icon_element-color-darkgrey ttm-icon_element-size-md">
+                                                    <i class="themifyicon ti-shield"></i>
+                                                </div>
+                                            </div>
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h5>Quality Guaranteed</h5>
+                                                </div>
+                                                <div class="featured-desc">
+                                                    <p>We stock only trusted, durable brands that professionals and serious DIYers rely on daily.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                        <div class="featured-icon-box style1 ttm-bgcolor-darkgrey">
+                                            <div class="featured-icon">
+                                                <div class="ttm-icon ttm-icon_element-color-white ttm-icon_element-size-md">
+                                                    <i class="themifyicon ti-comments"></i>
+                                                </div>
+                                            </div>
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h5>Expert Advice</h5>
+                                                </div>
+                                                <div class="featured-desc">
+                                                    <p>Our knowledgeable team is always on hand to help you find exactly the right tool for the job.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================ -->
+            <!--  ABOUT SECTION                                                -->
+            <!-- ============================================================ -->
+            <section id="about" class="about-section clearfix">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="about-img-wrapper">
+                                <img src="images/banner-four.jpg" alt="Inside Shaaz Hardware depot">
+                                <div class="about-badge">
+                                    <strong>20+</strong>
+                                    Years of<br>Service
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6">
+                            <div class="about-content">
+                                <h6>About Shaaz Hardware</h6>
+                                <h2>Port Louis' Trusted<br>Hardware Depot</h2>
+                                <p>
+                                    Located in the heart of Port Louis at 95 Royal Road, Shaaz Hardware has been the go-to destination for contractors, tradespeople, and passionate DIY enthusiasts across Mauritius. We are a full-service hardware depot stocking an extensive range of tools, equipment, and construction supplies to meet every project demand — big or small.
+                                </p>
+                                <p>
+                                    From concrete mixers and handheld grinders to nail shooters, LED panels, and complete DIY tool kits, our shelves are packed with everything you need to work smarter, build better, and finish faster. We take pride in offering genuine products at competitive prices, backed by friendly, expert advice from our experienced team.
+                                </p>
+                                <ul class="about-feature-list">
+                                    <li><i class="fa fa-check-circle"></i> Concrete Mixers &amp; Masonry Tools</li>
+                                    <li><i class="fa fa-check-circle"></i> Nail Shooters &amp; Fastening Tools</li>
+                                    <li><i class="fa fa-check-circle"></i> LED Panels &amp; Electrical Supplies</li>
+                                    <li><i class="fa fa-check-circle"></i> Handheld &amp; Bench Grinders</li>
+                                    <li><i class="fa fa-check-circle"></i> Complete DIY Tool Kits</li>
+                                    <li><i class="fa fa-check-circle"></i> Safety &amp; PPE Equipment</li>
+                                </ul>
+                                <a href="#contact" class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor">
+                                    Visit Our Store <i class="fa fa-arrow-right ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================ -->
+            <!--  STATS SECTION                                                -->
+            <!-- ============================================================ -->
+            <section class="stats-section clearfix">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-6 col-md-3">
+                            <div class="stat-item">
+                                <span class="stat-number">500<span style="font-size:30px;">+</span></span>
+                                <h6>Products In Stock</h6>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="stat-item">
+                                <span class="stat-number">20<span style="font-size:30px;">+</span></span>
+                                <h6>Years of Experience</h6>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="stat-item">
+                                <span class="stat-number">1K<span style="font-size:30px;">+</span></span>
+                                <h6>Happy Customers</h6>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="stat-item">
+                                <span class="stat-number">6</span>
+                                <h6>Product Categories</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================ -->
+            <!--  PRODUCT CATEGORIES SECTION                                   -->
+            <!-- ============================================================ -->
+            <section id="products" class="categories-grid-section clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-8 ml-auto mr-auto">
+                            <div class="section-title title-style-center_text style2">
+                                <div class="title-header">
+                                    <h5>What We Carry</h5>
+                                    <h2 class="title">Our Product Categories</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <!-- Category 1 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="category-card">
+                                <div class="cat-img-accent"></div>
+                                <i class="fa fa-gears cat-icon-large" style="position:absolute;top:30px;left:0;right:0;text-align:center;font-size:100px;color:rgba(255,255,255,0.06);"></i>
+                                <div class="cat-icon-main"><i class="fa fa-bolt"></i></div>
+                                <div class="cat-body">
+                                    <h4>Power Tools</h4>
+                                    <p>Angle grinders, circular saws, drills, jigsaws, sanders, and more from trusted brands.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category 2 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="category-card">
+                                <div class="cat-img-accent"></div>
+                                <div class="cat-icon-main"><i class="fa fa-wrench"></i></div>
+                                <div class="cat-body">
+                                    <h4>Hand Tools &amp; DIY</h4>
+                                    <p>Hammers, screwdrivers, spanners, pliers, tape measures, levels, and complete DIY kits.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category 3 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="category-card">
+                                <div class="cat-img-accent"></div>
+                                <div class="cat-icon-main"><i class="themifyicon ti-pulse"></i></div>
+                                <div class="cat-body">
+                                    <h4>Concrete &amp; Masonry</h4>
+                                    <p>Concrete mixers, demolition breakers, masonry bits, cement tools, and site equipment.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category 4 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="category-card">
+                                <div class="cat-img-accent"></div>
+                                <div class="cat-icon-main"><i class="fa fa-lightbulb-o"></i></div>
+                                <div class="cat-body">
+                                    <h4>LED Panels &amp; Lighting</h4>
+                                    <p>Energy-efficient LED panels, strip lights, floodlights, and electrical accessories.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category 5 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="category-card">
+                                <div class="cat-img-accent"></div>
+                                <div class="cat-icon-main"><i class="themifyicon ti-pin2"></i></div>
+                                <div class="cat-body">
+                                    <h4>Fastening Tools</h4>
+                                    <p>Nail shooters, brad nailers, staple guns, rivet tools, and all fastening consumables.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category 6 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="category-card">
+                                <div class="cat-img-accent"></div>
+                                <div class="cat-icon-main"><i class="themifyicon ti-shield"></i></div>
+                                <div class="cat-body">
+                                    <h4>Safety &amp; PPE</h4>
+                                    <p>Helmets, gloves, safety boots, goggles, ear protection, and high-visibility gear.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================ -->
+            <!--  CTA BANNER                                                   -->
+            <!-- ============================================================ -->
+            <section class="cta-banner-section clearfix">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 col-md-7">
+                            <h6>Ready to Start Your Project?</h6>
+                            <h2>Stop by the depot —<br>we've got <span>the right tools</span> for you.</h2>
+                            <p>Whether you're a professional contractor tackling a big build or a homeowner with a weekend project, our team at Shaaz Hardware is ready to help you find exactly what you need.</p>
+                            <a href="#contact" class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor">
+                                Get Directions <i class="fa fa-map-marker ml-2"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <div class="cta-contact">
+                                <div class="cta-phone-block">
+                                    <small>Call Us Directly</small>
+                                    <a href="tel:2173827">217 3827</a>
+                                    <a href="tel:57994464">5799 4464</a>
+                                </div>
+                                <div class="cta-phone-block" style="background:rgba(232,179,7,0.1); border-color:#e8b307;">
+                                    <small>Find Us At</small>
+                                    <span style="color:#fff; font-size:14px; font-weight:600;">95 Royal Road</span>
+                                    <span style="color:rgba(255,255,255,0.6); font-size:13px;">Port Louis, Mauritius</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================ -->
+            <!--  WHY CHOOSE US                                                -->
+            <!-- ============================================================ -->
+            <section id="why-us" class="why-section clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-8 ml-auto mr-auto">
+                            <div class="section-title title-style-center_text style2">
+                                <div class="title-header">
+                                    <h5>Why Shaaz Hardware</h5>
+                                    <h2 class="title">The Smart Choice for<br>Hardware in Mauritius</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="why-card">
+                                <div class="why-icon"><i class="fa fa-cubes"></i></div>
+                                <h5>One-Stop Depot</h5>
+                                <p>From the smallest drill bit to a full concrete mixer, we carry it all. One visit, everything sorted.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="why-card">
+                                <div class="why-icon"><i class="fa fa-star"></i></div>
+                                <h5>Trusted Brands Only</h5>
+                                <p>We handpick every brand we carry for reliability and durability. No compromise on quality.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="why-card">
+                                <div class="why-icon"><i class="fa fa-users"></i></div>
+                                <h5>Expert Staff</h5>
+                                <p>Our team knows tools inside out. Get honest, practical advice every time you walk in.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="why-card">
+                                <div class="why-icon"><i class="fa fa-tags"></i></div>
+                                <h5>Competitive Prices</h5>
+                                <p>Fair pricing on every product. Whether you're buying one item or a full project kit, we keep it affordable.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="why-card">
+                                <div class="why-icon"><i class="fa fa-map-marker"></i></div>
+                                <h5>Prime Location</h5>
+                                <p>Right on Royal Road in Port Louis — easy to reach, with ample parking for contractors and tradespeople.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="why-card">
+                                <div class="why-icon"><i class="fa fa-refresh"></i></div>
+                                <h5>Always Restocked</h5>
+                                <p>We keep our shelves full. Regular shipments mean you'll almost always find what you need in stock.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================ -->
+            <!--  TESTIMONIALS                                                 -->
+            <!-- ============================================================ -->
+            <section class="testimonial-section bg-img1 ttm-bgcolor-darkgrey clearfix">
+                <div class="row-wrapper-bg-layer ttm-bg-layer"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 ml-auto mr-auto">
+                            <div class="section-title title-style-center_text style2">
+                                <div class="title-header">
+                                    <h5>Testimonials</h5>
+                                    <h2 class="title">What Our Customers Say</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12">
+                            <div class="slick_slider" data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows": false, "autoplay": true, "centerMode": true, "centerPadding": 0, "infinite": true, "initialSlide": 1}'>
+
+                                <div class="testimonials ttm-testimonial-box-view-style1">
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-avatar">
+                                            <div class="testimonial-img">
+                                                <img class="img-center" src="images/01.jpg" alt="Priya N.">
+                                            </div>
+                                        </div>
+                                        <div class="quote-icon"><i class="ti ti-quote-left"></i></div>
+                                        <blockquote>Found everything I needed for my kitchen renovation in one trip. The staff recommended the perfect drill and even helped me pick the right bits. Excellent service!</blockquote>
+                                        <div class="testimonial-caption">
+                                            <h5>Priya Naidoo</h5>
+                                            <label>Homeowner, Port Louis</label>
+                                            <div class="star-ratings">
+                                                <ul class="rating">
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials ttm-testimonial-box-view-style1">
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-avatar">
+                                            <div class="testimonial-img">
+                                                <img class="img-center" src="images/02.jpg" alt="Rashid M.">
+                                            </div>
+                                        </div>
+                                        <div class="quote-icon"><i class="ti ti-quote-left"></i></div>
+                                        <blockquote>As a contractor, I need reliable suppliers. Shaaz Hardware always has the tools and materials I need. Their concrete mixer range is particularly impressive — great value.</blockquote>
+                                        <div class="testimonial-caption">
+                                            <h5>Rashid Mohun</h5>
+                                            <label>Building Contractor</label>
+                                            <div class="star-ratings">
+                                                <ul class="rating">
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials ttm-testimonial-box-view-style1">
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-avatar">
+                                            <div class="testimonial-img">
+                                                <img class="img-center" src="images/01.jpg" alt="Jean-Marc D.">
+                                            </div>
+                                        </div>
+                                        <div class="quote-icon"><i class="ti ti-quote-left"></i></div>
+                                        <blockquote>Bought my nail gun and LED panels here. Quality products, knowledgeable team, and much better prices than I expected. Won't shop anywhere else for hardware.</blockquote>
+                                        <div class="testimonial-caption">
+                                            <h5>Jean-Marc Dubois</h5>
+                                            <label>Interior Decorator</label>
+                                            <div class="star-ratings">
+                                                <ul class="rating">
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star-half-o"></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials ttm-testimonial-box-view-style1">
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-avatar">
+                                            <div class="testimonial-img">
+                                                <img class="img-center" src="images/02.jpg" alt="Vikram R.">
+                                            </div>
+                                        </div>
+                                        <div class="quote-icon"><i class="ti ti-quote-left"></i></div>
+                                        <blockquote>My go-to place for all site materials. The team at Shaaz Hardware is always helpful and the stock is impressive. Central location makes it very convenient for Port Louis jobs.</blockquote>
+                                        <div class="testimonial-caption">
+                                            <h5>Vikram Ramjee</h5>
+                                            <label>Civil Engineer</label>
+                                            <div class="star-ratings">
+                                                <ul class="rating">
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ============================================================ -->
+            <!--  CONTACT SECTION                                              -->
+            <!-- ============================================================ -->
+            <section id="contact" class="contact-section clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-8 ml-auto mr-auto">
+                            <div class="section-title title-style-center_text style2">
+                                <div class="title-header">
+                                    <h5>Find Us</h5>
+                                    <h2 class="title">Visit Shaaz Hardware</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 mb-30">
+                            <div class="contact-info-card">
+                                <h4>Store Information</h4>
+
+                                <div class="contact-item">
+                                    <div class="contact-item-icon"><i class="fa fa-map-marker"></i></div>
+                                    <div class="contact-item-text">
+                                        <small>Address</small>
+                                        <strong>95 Royal Road</strong>
+                                        <strong>Port Louis, Mauritius</strong>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-item-icon"><i class="fa fa-phone"></i></div>
+                                    <div class="contact-item-text">
+                                        <small>Phone</small>
+                                        <a href="tel:2173827">217 3827</a>
+                                        <a href="tel:57994464">5799 4464</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-item-icon"><i class="fa fa-clock-o"></i></div>
+                                    <div class="contact-item-text">
+                                        <small>Opening Hours</small>
+                                        <strong>Mon – Fri: 7:30AM – 5:30PM</strong>
+                                        <strong>Saturday: 8:00AM – 1:00PM</strong>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-item-icon"><i class="fa fa-times-circle"></i></div>
+                                    <div class="contact-item-text">
+                                        <small>Closed</small>
+                                        <strong>Sundays &amp; Public Holidays</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <div class="contact-map-wrapper">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.5!2d57.4989!3d-20.1609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDA5JzM5LjIiUyA1N8KwMjknNTYuMCJF!5e0!3m2!1sen!2smu!4v1234567890"
+                                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                    title="Shaaz Hardware Location – 95 Royal Road, Port Louis, Mauritius">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div><!--site-main end-->
+
+
+        <!-- ============================================================ -->
+        <!--  FOOTER                                                       -->
+        <!-- ============================================================ -->
+        <footer class="footer widget-footer ttm-bg ttm-bgimage-yes ttm-bgcolor-darkgrey ttm-textcolor-white clearfix">
+            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+
+            <!-- Newsletter / Social row -->
+            <div class="first-footer">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 widget-area">
+                            <div class="widget ttm-footer-cta-wrapper">
+                                <h5 style="margin:0;">Shaaz Hardware — Your Local Depot in Port Louis</h5>
+                                <p style="margin:8px 0 0; color:rgba(255,255,255,0.6); font-size:13px;">
+                                    <i class="fa fa-map-marker mr-2" style="color:#e8b307;"></i>95 Royal Road, Port Louis, Mauritius
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-4 widget-area m-auto">
+                            <div class="widget ttm-footer-cta-wrapper">
+                                <div style="display:flex; gap:15px; flex-wrap:wrap;">
+                                    <a href="tel:2173827" style="display:flex; align-items:center; gap:8px; background:rgba(255,255,255,0.08); padding:10px 18px; border-radius:3px; color:#fff; text-decoration:none; font-weight:600;">
+                                        <i class="fa fa-phone" style="color:#e8b307;"></i> 217 3827
+                                    </a>
+                                    <a href="tel:57994464" style="display:flex; align-items:center; gap:8px; background:rgba(255,255,255,0.08); padding:10px 18px; border-radius:3px; color:#fff; text-decoration:none; font-weight:600;">
+                                        <i class="fa fa-mobile" style="color:#e8b307; font-size:18px;"></i> 5799 4464
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 widget-area">
+                            <div class="social-icons social-hover widget text-center">
+                                <ul class="list-inline">
+                                    <li class="social-facebook"><a class="tooltip-top" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li class="social-instagram"><a class="tooltip-top" href="#" data-tooltip="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li class="social-whatsapp"><a class="tooltip-top" href="https://wa.me/23057994464" data-tooltip="WhatsApp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sep_holder_box">
+                <span class="sep_holder"><span class="sep_line"></span></span>
+            </div>
+
+            <!-- Footer widgets -->
+            <div class="third-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
+                            <div class="widget widget_text pr-25 clearfix">
+                                <h3 class="widget-title">About Shaaz Hardware</h3>
+                                <div class="textwidget widget-text">
+                                    <p class="pb-10">Shaaz Hardware is a full-service hardware depot located at 95 Royal Road, Port Louis, Mauritius. We supply professional tools, power equipment, construction materials, and DIY supplies to tradespeople and homeowners across Mauritius.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 widget-area">
+                            <div class="widget widget_nav_menu clearfix">
+                                <h3 class="widget-title">Quick Links</h3>
+                                <ul class="menu-footer-quick-links">
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#about">About Us</a></li>
+                                    <li><a href="#products">Our Products</a></li>
+                                    <li><a href="#why-us">Why Choose Us</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
+                            <div class="widget widget_nav_menu clearfix">
+                                <h3 class="widget-title">Our Products</h3>
+                                <ul class="menu-footer-quick-links">
+                                    <li><a href="#products">Power Tools</a></li>
+                                    <li><a href="#products">Hand Tools &amp; DIY</a></li>
+                                    <li><a href="#products">Concrete &amp; Masonry</a></li>
+                                    <li><a href="#products">LED Panels &amp; Lighting</a></li>
+                                    <li><a href="#products">Fastening Tools</a></li>
+                                    <li><a href="#products">Safety &amp; PPE</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 widget-area">
+                            <div class="widget widget_text clearfix">
+                                <h3 class="widget-title">Opening Hours</h3>
+                                <ul class="widget_info_text">
+                                    <li style="padding:5px 0; border-bottom:1px solid rgba(255,255,255,0.07);">
+                                        <strong style="color:#e8b307;">Mon – Fri</strong><br>
+                                        <span style="color:rgba(255,255,255,0.7);">7:30 AM – 5:30 PM</span>
+                                    </li>
+                                    <li style="padding:5px 0; border-bottom:1px solid rgba(255,255,255,0.07);">
+                                        <strong style="color:#e8b307;">Saturday</strong><br>
+                                        <span style="color:rgba(255,255,255,0.7);">8:00 AM – 1:00 PM</span>
+                                    </li>
+                                    <li style="padding:5px 0;">
+                                        <strong style="color:rgba(255,255,255,0.4);">Sunday &amp; Public Holidays</strong><br>
+                                        <span style="color:rgba(255,255,255,0.4);">Closed</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sep_holder_box">
+                <span class="sep_holder"><span class="sep_line"></span></span>
+            </div>
+
+            <!-- Bottom bar -->
+            <div class="bottom-footer-text">
+                <div class="container">
+                    <div class="row copyright align-items-center">
+                        <div class="col-md-12 col-lg-6 ttm-footer2-left">
+                            <span>&copy; <script>document.write(new Date().getFullYear())</script> Shaaz Hardware. All Rights Reserved. &nbsp;|&nbsp; 95 Royal Road, Port Louis, Mauritius</span>
+                        </div>
+                        <div class="col-md-12 col-lg-6 ttm-footer2-right text-lg-right">
+                            <span style="font-size:13px; color:rgba(255,255,255,0.5);">
+                                <i class="fa fa-phone mr-1" style="color:#e8b307;"></i> 217 3827 &nbsp;/&nbsp; 5799 4464
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--footer end-->
+
+        <!--back-to-top start-->
+        <a id="totop" href="#top">
+            <i class="fa fa-angle-up"></i>
+        </a>
+        <!--back-to-top end-->
+
+    </div><!-- page end -->
+
+
+    <!-- Javascript -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery-waypoints.js"></script>
+    <script src="js/jquery-validate.js"></script>
+    <script src="js/numinate.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Revolution Slider -->
+    <script src="js/jquery.themepunch.tools.min.js"></script>
+    <script src="js/jquery.themepunch.revolution.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/revolution.extension.actions.min.js"></script>
+    <script src="js/revolution.extension.carousel.min.js"></script>
+    <script src="js/revolution.extension.kenburn.min.js"></script>
+    <script src="js/revolution.extension.layeranimation.min.js"></script>
+    <script src="js/revolution.extension.migration.min.js"></script>
+    <script src="js/revolution.extension.navigation.min.js"></script>
+    <script src="js/revolution.extension.parallax.min.js"></script>
+    <script src="js/revolution.extension.slideanims.min.js"></script>
+    <script src="js/revolution.extension.video.min.js"></script>
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                var target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
